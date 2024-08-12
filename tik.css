@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    /* width: 100VW; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url("https://wallpapers.com/images/high/simple-black-white-autumn-leaves-b31crh2opuf29otx.webp") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.bada{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid black;
+    background-color: beige; */
+    /* padding: 25px 0px 0px 0px; */
+    gap: 1.5vmin;
+    
+
+}
+
+.chote{
+    height: 18vmin ;
+    width:18vmin ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    background-color: #ffffc7;
+    font: 2rem;
+    color: rgb(4, 32, 72);
+    font-size: 8vmin;
+    font-weight: 700;
+    
+
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 10vmin;
+    margin-bottom:0px ;
+    margin-top:0px ;
+
+
+}
+
+.msg-container{
+    /* height: 40vmin; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
